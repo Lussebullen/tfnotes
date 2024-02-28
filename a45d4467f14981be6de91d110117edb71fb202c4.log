@@ -1,0 +1,156 @@
+ok  	github.com/hashicorp/terraform	(cached)
+ok  	github.com/hashicorp/terraform/internal/addrs	(cached)
+ok  	github.com/hashicorp/terraform/internal/backend	(cached)
+ok  	github.com/hashicorp/terraform/internal/backend/init	(cached)
+ok  	github.com/hashicorp/terraform/internal/backend/local	(cached)
+ok  	github.com/hashicorp/terraform/internal/backend/remote	(cached)
+ok  	github.com/hashicorp/terraform/internal/backend/remote-state/azure	(cached)
+ok  	github.com/hashicorp/terraform/internal/backend/remote-state/consul	(cached)
+ok  	github.com/hashicorp/terraform/internal/backend/remote-state/cos	(cached)
+ok  	github.com/hashicorp/terraform/internal/backend/remote-state/gcs	(cached)
+ok  	github.com/hashicorp/terraform/internal/backend/remote-state/http	(cached)
+ok  	github.com/hashicorp/terraform/internal/backend/remote-state/inmem	(cached)
+ok  	github.com/hashicorp/terraform/internal/backend/remote-state/kubernetes	(cached)
+ok  	github.com/hashicorp/terraform/internal/backend/remote-state/oss	(cached)
+ok  	github.com/hashicorp/terraform/internal/backend/remote-state/pg	(cached)
+ok  	github.com/hashicorp/terraform/internal/backend/remote-state/s3	(cached)
+ok  	github.com/hashicorp/terraform/internal/builtin/providers/terraform	(cached)
+ok  	github.com/hashicorp/terraform/internal/builtin/provisioners/file	(cached)
+ok  	github.com/hashicorp/terraform/internal/builtin/provisioners/local-exec	(cached)
+ok  	github.com/hashicorp/terraform/internal/builtin/provisioners/remote-exec	(cached)
+ok  	github.com/hashicorp/terraform/internal/checks	(cached)
+ok  	github.com/hashicorp/terraform/internal/cloud	(cached)
+ok  	github.com/hashicorp/terraform/internal/cloud/cloudplan	(cached)
+ok  	github.com/hashicorp/terraform/internal/cloud/e2e	(cached)
+ok  	github.com/hashicorp/terraform/internal/cloudplugin	(cached)
+ok  	github.com/hashicorp/terraform/internal/cloudplugin/cloudplugin1	(cached)
+?   	github.com/hashicorp/terraform/internal/cloudplugin/cloudproto1	[no test files]
+?   	github.com/hashicorp/terraform/internal/cloudplugin/mock_cloudproto1	[no test files]
+ok  	github.com/hashicorp/terraform/internal/collections	(cached)
+?   	github.com/hashicorp/terraform/internal/command/jsonformat/collections	[no test files]
+?   	github.com/hashicorp/terraform/internal/command/jsonformat/computed	[no test files]
+?   	github.com/hashicorp/terraform/internal/command/jsonformat/jsondiff	[no test files]
+?   	github.com/hashicorp/terraform/internal/command/jsonformat/structured	[no test files]
+?   	github.com/hashicorp/terraform/internal/command/testing	[no test files]
+?   	github.com/hashicorp/terraform/internal/e2e	[no test files]
+?   	github.com/hashicorp/terraform/internal/experiments	[no test files]
+?   	github.com/hashicorp/terraform/internal/getmodules	[no test files]
+?   	github.com/hashicorp/terraform/internal/grpcwrap	[no test files]
+?   	github.com/hashicorp/terraform/internal/lang/marks	[no test files]
+?   	github.com/hashicorp/terraform/internal/lang/types	[no test files]
+?   	github.com/hashicorp/terraform/internal/modsdir	[no test files]
+?   	github.com/hashicorp/terraform/internal/plans/planproto	[no test files]
+?   	github.com/hashicorp/terraform/internal/plugin/mock_proto	[no test files]
+?   	github.com/hashicorp/terraform/internal/plugin6/mock_proto	[no test files]
+?   	github.com/hashicorp/terraform/internal/provider-simple	[no test files]
+?   	github.com/hashicorp/terraform/internal/provider-simple/main	[no test files]
+?   	github.com/hashicorp/terraform/internal/provider-simple-v6	[no test files]
+?   	github.com/hashicorp/terraform/internal/provider-simple-v6/main	[no test files]
+?   	github.com/hashicorp/terraform/internal/provider-terraform/main	[no test files]
+?   	github.com/hashicorp/terraform/internal/providers/testing	[no test files]
+?   	github.com/hashicorp/terraform/internal/provisioner-local-exec/main	[no test files]
+?   	github.com/hashicorp/terraform/internal/provisioners	[no test files]
+?   	github.com/hashicorp/terraform/internal/registry/test	[no test files]
+?   	github.com/hashicorp/terraform/internal/replacefile	[no test files]
+?   	github.com/hashicorp/terraform/internal/rpcapi/dynrpcserver	[no test files]
+?   	github.com/hashicorp/terraform/internal/rpcapi/dynrpcserver/generator	[no test files]
+?   	github.com/hashicorp/terraform/internal/rpcapi/terraform1	[no test files]
+?   	github.com/hashicorp/terraform/internal/stacks/stackaddrs	[no test files]
+?   	github.com/hashicorp/terraform/internal/stacks/stackconfig/stackconfigtypes	[no test files]
+?   	github.com/hashicorp/terraform/internal/stacks/stackconfig/typeexpr	[no test files]
+?   	github.com/hashicorp/terraform/internal/stacks/stackruntime/hooks	[no test files]
+?   	github.com/hashicorp/terraform/internal/stacks/stackruntime/testing	[no test files]
+?   	github.com/hashicorp/terraform/internal/stacks/stackutils	[no test files]
+?   	github.com/hashicorp/terraform/internal/tfplugin5	[no test files]
+?   	github.com/hashicorp/terraform/tools/loggraphdiff	[no test files]
+?   	github.com/hashicorp/terraform/internal/tfplugin6	[no test files]
+?   	github.com/hashicorp/terraform/tools/protobuf-compile	[no test files]
+ok  	github.com/hashicorp/terraform/internal/command	35.418s
+ok  	github.com/hashicorp/terraform/internal/command/arguments	(cached)
+ok  	github.com/hashicorp/terraform/internal/command/cliconfig	(cached)
+ok  	github.com/hashicorp/terraform/internal/command/clistate	(cached)
+ok  	github.com/hashicorp/terraform/internal/command/e2etest	(cached)
+ok  	github.com/hashicorp/terraform/internal/command/format	(cached)
+ok  	github.com/hashicorp/terraform/internal/command/jsonchecks	(cached)
+ok  	github.com/hashicorp/terraform/internal/command/jsonconfig	(cached)
+ok  	github.com/hashicorp/terraform/internal/command/jsonformat	(cached)
+ok  	github.com/hashicorp/terraform/internal/command/jsonformat/computed/renderers	(cached)
+ok  	github.com/hashicorp/terraform/internal/command/jsonformat/differ	(cached)
+ok  	github.com/hashicorp/terraform/internal/command/jsonformat/structured/attribute_path	(cached)
+ok  	github.com/hashicorp/terraform/internal/command/jsonfunction	(cached)
+ok  	github.com/hashicorp/terraform/internal/command/jsonplan	(cached)
+ok  	github.com/hashicorp/terraform/internal/command/jsonprovider	(cached)
+ok  	github.com/hashicorp/terraform/internal/command/jsonstate	(cached)
+ok  	github.com/hashicorp/terraform/internal/command/views	(cached)
+ok  	github.com/hashicorp/terraform/internal/command/views/json	(cached)
+ok  	github.com/hashicorp/terraform/internal/command/webbrowser	(cached)
+ok  	github.com/hashicorp/terraform/internal/command/workdir	(cached)
+ok  	github.com/hashicorp/terraform/internal/communicator	(cached)
+ok  	github.com/hashicorp/terraform/internal/communicator/remote	(cached) [no tests to run]
+ok  	github.com/hashicorp/terraform/internal/communicator/shared	(cached)
+ok  	github.com/hashicorp/terraform/internal/communicator/ssh	(cached)
+ok  	github.com/hashicorp/terraform/internal/communicator/winrm	(cached)
+ok  	github.com/hashicorp/terraform/internal/configs	(cached)
+ok  	github.com/hashicorp/terraform/internal/configs/configload	(cached)
+ok  	github.com/hashicorp/terraform/internal/configs/configschema	(cached)
+ok  	github.com/hashicorp/terraform/internal/configs/hcl2shim	(cached)
+ok  	github.com/hashicorp/terraform/internal/copy	(cached)
+ok  	github.com/hashicorp/terraform/internal/dag	(cached)
+ok  	github.com/hashicorp/terraform/internal/depsfile	(cached)
+ok  	github.com/hashicorp/terraform/internal/didyoumean	(cached)
+ok  	github.com/hashicorp/terraform/internal/genconfig	(cached)
+ok  	github.com/hashicorp/terraform/internal/getproviders	(cached)
+ok  	github.com/hashicorp/terraform/internal/helper/slowmessage	(cached)
+ok  	github.com/hashicorp/terraform/internal/httpclient	(cached)
+ok  	github.com/hashicorp/terraform/internal/initwd	0.037s
+ok  	github.com/hashicorp/terraform/internal/instances	(cached)
+ok  	github.com/hashicorp/terraform/internal/ipaddr	(cached)
+ok  	github.com/hashicorp/terraform/internal/lang	(cached)
+ok  	github.com/hashicorp/terraform/internal/lang/blocktoattr	(cached)
+ok  	github.com/hashicorp/terraform/internal/lang/funcs	(cached)
+ok  	github.com/hashicorp/terraform/internal/lang/globalref	(cached)
+ok  	github.com/hashicorp/terraform/internal/legacy/helper/acctest	(cached)
+ok  	github.com/hashicorp/terraform/internal/legacy/helper/hashcode	(cached)
+ok  	github.com/hashicorp/terraform/internal/legacy/helper/schema	(cached)
+ok  	github.com/hashicorp/terraform/internal/legacy/terraform	(cached)
+ok  	github.com/hashicorp/terraform/internal/logging	(cached)
+ok  	github.com/hashicorp/terraform/internal/moduledeps	(cached)
+ok  	github.com/hashicorp/terraform/internal/moduletest	(cached)
+ok  	github.com/hashicorp/terraform/internal/moduletest/config	(cached)
+ok  	github.com/hashicorp/terraform/internal/moduletest/hcl	(cached)
+ok  	github.com/hashicorp/terraform/internal/moduletest/mocking	(cached)
+ok  	github.com/hashicorp/terraform/internal/namedvals	(cached)
+ok  	github.com/hashicorp/terraform/internal/plans	(cached)
+ok  	github.com/hashicorp/terraform/internal/plans/deferring	(cached)
+ok  	github.com/hashicorp/terraform/internal/plans/objchange	(cached)
+ok  	github.com/hashicorp/terraform/internal/plans/planfile	(cached)
+ok  	github.com/hashicorp/terraform/internal/plugin	(cached)
+ok  	github.com/hashicorp/terraform/internal/plugin/convert	(cached)
+ok  	github.com/hashicorp/terraform/internal/plugin/discovery	(cached)
+ok  	github.com/hashicorp/terraform/internal/plugin6	(cached)
+ok  	github.com/hashicorp/terraform/internal/plugin6/convert	(cached)
+ok  	github.com/hashicorp/terraform/internal/promising	(cached)
+ok  	github.com/hashicorp/terraform/internal/providercache	0.045s
+ok  	github.com/hashicorp/terraform/internal/providers	(cached)
+ok  	github.com/hashicorp/terraform/internal/refactoring	(cached)
+ok  	github.com/hashicorp/terraform/internal/registry	(cached)
+ok  	github.com/hashicorp/terraform/internal/registry/regsrc	(cached)
+ok  	github.com/hashicorp/terraform/internal/registry/response	(cached)
+ok  	github.com/hashicorp/terraform/internal/releaseauth	(cached)
+ok  	github.com/hashicorp/terraform/internal/repl	(cached)
+ok  	github.com/hashicorp/terraform/internal/rpcapi	0.058s
+ok  	github.com/hashicorp/terraform/internal/stacks/stackconfig	(cached)
+ok  	github.com/hashicorp/terraform/internal/stacks/stackplan	(cached)
+ok  	github.com/hashicorp/terraform/internal/stacks/stackruntime	(cached)
+ok  	github.com/hashicorp/terraform/internal/stacks/stackruntime/internal/stackeval	(cached)
+ok  	github.com/hashicorp/terraform/internal/stacks/stackstate	(cached)
+ok  	github.com/hashicorp/terraform/internal/stacks/stackstate/statekeys	(cached)
+ok  	github.com/hashicorp/terraform/internal/stacks/tfstackdata1	(cached)
+ok  	github.com/hashicorp/terraform/internal/states	(cached)
+ok  	github.com/hashicorp/terraform/internal/states/remote	(cached)
+ok  	github.com/hashicorp/terraform/internal/states/statefile	(cached)
+ok  	github.com/hashicorp/terraform/internal/states/statemgr	(cached)
+ok  	github.com/hashicorp/terraform/internal/terminal	(cached)
+ok  	github.com/hashicorp/terraform/internal/terraform	(cached)
+ok  	github.com/hashicorp/terraform/internal/tfdiags	(cached)
+ok  	github.com/hashicorp/terraform/version	(cached)

@@ -1,0 +1,1 @@
+./GoLand-2023.3.4/bin/goland.sh

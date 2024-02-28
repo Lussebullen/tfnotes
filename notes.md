@@ -90,3 +90,23 @@ Summary, Detail, neither of which seem to need sanitation, likely Subject or Con
 As Context references the exact line and columns in terraform.tfvars that cause the error, Subject I do not know, the range is of len 1.
 
 We would simply suppress that part of the printout, but we would need to condition that on a matching to a sensitive label in main.tf for the same variable.
+
+Adam mentioned that we should resolve the issue specifically for plan.go, and not apply.go.
+In this case look at line 86 for the OperationsRequest.
+
+Lin 191 in opReq.Variables, diags = c.collectVariableValues() diags is generated.
+
+In meta_vars.go line 220 the loader variable holds information from main.tf, including variable name and attributes like sensitive=true.
+
+line 227 we load in the .tfvars file, now the loader contains contents for both files.
+
+in line 239 we run hclSyntax.ParseConfig and we get the error in the hclDiags variable.
+This is the root cause, stepping in any further takes us to the source code for HCL.
+
+f, hclDiags = hclsyntax.Parse...
+generated f and hclDiags together, presumably they must describe the same objects. 
+We think f.Body.Attributes contains entries for each variable declared in the .tfvars file.
+Denote entry by VAR, we think VAR.Expr.SrcRange has to match 
+
+if VAR.Expr.SrcRange.Start deepequals hclDiags[].Context.Start and similarly for end.
+Alternatively, if initial line number suffices, just match line numbers.

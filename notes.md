@@ -110,3 +110,21 @@ Denote entry by VAR, we think VAR.Expr.SrcRange has to match
 
 if VAR.Expr.SrcRange.Start deepequals hclDiags[].Context.Start and similarly for end.
 Alternatively, if initial line number suffices, just match line numbers.
+
+view.Diagnostics(diags) is what prints out the error message. Find on line 88 in plan.go, probably somewhere in apply.go as well.
+
+in view.go on lines 115 and 117 the error message is built, and in the next conditional block it is printed.
+
+in json/diagnostic.go the actual error string is formedat line 240. At this point we technically have all information needed in scope, but the main.tf info is in byteform, so it would be preferrable to pass in the loader variable from earlier to allow for more elegant parsing.
+
+Suggestions:
+
+Manual parsing of main.tf:
+Cons: Error prone, cumbersome and inelegant.
+Pros: Conceptually simple, non-invasive.
+
+Pass in loader:
+Cons - depending on implementation can break API
+Pros - elegant solution.
+If done as a named parameter with default value, can be done non-invasively?
+
